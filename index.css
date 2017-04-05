@@ -1,0 +1,69 @@
+.infoSlider {
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+}
+
+#infoSliderText {
+    display: block;
+    position: absolute;
+    width: 100%;
+    text-align:center;
+    top: 35%;
+    color: #fff;
+    font-size: 48px;
+}
+
+#our_services {
+    background-color: #294d87;
+        padding: 2% 0 2% 0;
+}
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+    font-size: 48px;
+}
+
+.our_services_fa{
+    color: #fff;
+    font-size: 150px;
+    padding: 5% 0 5% 0;
+}
+
+.our_services_text{
+    padding: 0 10% 2% 10%;
+    color: #fff;
+    text-align: center;
+}
+
+#info_table {
+    padding: 0 15% 0 15%;
+}
+
+#latest_jobs {
+    background-color: #333;
+        padding: 2% 0 2% 0;
+}
+
+#contact {
+    background-color: #1a3259;
+    padding: 2% 0 2% 0;
+}
+
+.contactForm {
+    width: 40%;
+    padding: 20px 0 20px 10px;
+    margin: 5px;
+    background-color: #294d87; 
+    color: #e2e2e2;
+    font-size: 16px;
+    border: none;
+}
+
+#message {
+    width: 81.25%;
+}
