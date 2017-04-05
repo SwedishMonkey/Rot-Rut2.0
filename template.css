@@ -33,7 +33,7 @@ ul {
 
 #headerFirst span:not(#logo) {
 	float: right;
-	padding: 30px;
+	padding: 35px;
 }
 
 #headerFirst li span:hover:not(.noHover) {
