@@ -54,16 +54,39 @@ h1 {
     padding: 2% 0 2% 0;
 }
 
+#contact_div {
+    padding-top: 1%;
+}
+
 .contactForm {
     width: 40%;
     padding: 20px 0 20px 10px;
     margin: 5px;
     background-color: #294d87; 
-    color: #e2e2e2;
+    color: #fff;
     font-size: 16px;
     border: none;
 }
 
 #message {
     width: 81.25%;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #fff;
+    font-family: arial;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #fff;
+    opacity:  1;
+    font-family: arial;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #fff;
+    opacity:  1;
+    font-family: arial;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #fff;
+    font-family: arial;
 }

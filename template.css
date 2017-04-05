@@ -33,7 +33,7 @@ ul {
 
 #headerFirst span:not(#logo) {
 	float: right;
-	padding: 30px;
+	padding: 35px;
 }
 
 #headerFirst li span:hover:not(.noHover) {
@@ -62,7 +62,6 @@ ul {
 footer {
     background-color: #294d87;
     padding:2% 0 2% 0;
-};
 }
 
 #copyright {
