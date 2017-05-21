@@ -46,11 +46,14 @@
         <div id="contact">
             <h1 class="center">Kontakt</h1>
             <div class="center" id="contact_div">
-                <input type="text" name="name" required="true" placeholder="Namn" class="contactForm"/>
-                <input type="text" name="surname" required="true" placeholder="Efternamn" class="contactForm"/><br/>
-                <input type="email" name="email" required="true" placeholder="Mejladdress" class="contactForm"/>
-                <input type="tel" name="tel" required="false" placeholder="Telefonnummer" class="contactForm"/><br/>
-                <textarea cols="46" rows="5" id="message" name="message" required="true" placeholder="Meddelande" class="contactForm"></textarea>
+                <form action="/contact_send.php">
+                    <input type="text" name="name" required="true" placeholder="Namn" class="contactForm"/>
+                    <input type="text" name="surname" required="true" placeholder="Efternamn" class="contactForm"/><br/>
+                    <input type="email" name="email" required="true" placeholder="Mejladdress" class="contactForm"/>
+                    <input type="tel" name="tel" required="false" placeholder="Telefonnummer" class="contactForm"/><br/>
+                    <textarea cols="46" rows="5" id="message" name="message" required="true" placeholder="Meddelande" class="contactForm"></textarea><br/>
+                    <input type="submit" name="send" class="contactForm" value="Skicka" id="send_contact"/>
+                </form>
             </div>
         </div>
         

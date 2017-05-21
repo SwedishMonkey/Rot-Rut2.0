@@ -59,6 +59,10 @@ ul {
     width: 100%;
 }
 
+#send_contact:hover {
+    background-color: #1a3259;
+}
+
 footer {
     background-color: #294d87;
     padding:2% 0 2% 0;

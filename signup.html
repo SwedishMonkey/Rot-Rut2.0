@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html land="en">
+	<head>
+        <script src="https://use.fontawesome.com/95d3c28848.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>  
+		<link rel="stylesheet" type="text/css" href="signup.css">
+	
+		<script> 
+			$(function(){
+			$("#header").load("header.html"); 
+			$("#footer").load("footer.html"); 
+			});
+		</script>
+	</head>
+	<body>
+		<header>
+			<div id="header"></div>
+		</header>
+        
+        <!-- Button to open the modal -->
+        <button onclick="document.getElementById('id01').style.display='block'">Sign Up</button>
+
+        <!-- The Modal (contains the Sign Up form) -->
+        <div id="id01" class="modal">
+          <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+              <form class="modal-content animate" action="/signup.php">
+                <div class="imgcontainer">
+                    <img src="Images/avatar.png" alt="Avatar" class="avatar">
+                </div>
+                 <div class="container">
+                    <label><b>Mejl</b></label>
+                    <input type="text" placeholder="Enter Email" name="email" required>
+
+                    <label><b>Lösenord</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+
+                    <label><b>Upprepa lösenord</b></label>
+                    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+                     
+                    <label><b>Kontotyp</b></label>
+                    <select>
+                        <option value="UG">Uppdragsgivare</option>
+                        <option value="UT" selected>Uppdragstagare</option>
+                     </select>
+                     
+                    <input type="checkbox" checked="checked"> Remember me
+                    <p>Genom att skapa ett konto godkänner du <a href="#">våra användarvilkor</a>.</p>
+                    
+                    <div class="clearfix">
+                      <button type="button" class="cancelbtn" onClick="document.getElementById('id01').style.display='none'">Avbryt</button>
+                      <button type="submit" class="signupbtn">Skapa konto</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        
+        <script>
+            // Get the modal
+            var modal = document.getElementById('id01');
+
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+        </script>
+        
+        <footer>
+			<div id="footer"></div>
+		</footer>
+	</body>
+</html>
