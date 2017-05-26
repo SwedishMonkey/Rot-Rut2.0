@@ -2,6 +2,7 @@
     max-width: 100%;
     max-height: 100%;
     position: relative;
+
 }
 
 #infoSliderText {
@@ -30,7 +31,7 @@ h1 {
 
 .our_services_fa{
     color: #fff;
-    font-size: 150px;
+    font-size: 1000%;
     padding: 5% 0 5% 0;
 }
 
@@ -42,11 +43,12 @@ h1 {
 
 #info_table {
     padding: 0 15% 0 15%;
+    max-width: 100%;
 }
 
 #latest_jobs {
     background-color: #333;
-        padding: 2% 0 2% 0;
+    padding: 2% 0 2% 0;
 }
 
 #contact {
@@ -89,4 +91,12 @@ h1 {
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
     color: #fff;
     font-family: arial;
+}
+
+/* MOBILE */
+
+@media screen and (min-width: 480px) {
+    body {
+        
+    }
 }

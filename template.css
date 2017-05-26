@@ -5,8 +5,35 @@ body, h1, h2, h3, header, footer, p, ul, li, table, tr, td, form, input, div, im
     font-family: arial;
 }
 
-h1 #navMenu {
-    font-size: 36px;
+bodyr {
+    min-width:500px;
+    width: auto !important;
+    width:500px;
+}
+
+#logoImg {
+    max-width: 100%;
+    max-height: 100%;
+    padding: 10%;
+    float: left;
+    padding: 37px 5px 37px 5px;
+}
+
+#menuNavButton {
+    width: 50px;
+    position: absolute;
+    right: 70px;
+    top: 30px;
+    visibility: hidden;
+}
+
+#navMenu {
+    max-width: 100%;
+    max-height: 100px;
+}
+
+#navActions {
+    max-width: 100%;
 }
 
 .menu {
@@ -14,7 +41,6 @@ h1 #navMenu {
 	border: 0;
 	margin: 0;
 	background-color: #294d87;
-	color: #fff;
 }
 
 ul {
@@ -31,9 +57,9 @@ ul {
 	padding: 0;
 }
 
-#headerFirst span:not(#logo) {
+#headerFirst span {
 	float: right;
-	padding: 35px;
+	padding: 36px 3% 36px 3%;
 }
 
 #headerFirst li span:hover:not(.noHover) {
@@ -45,13 +71,9 @@ ul {
 	text-align: center;
 	text-decoration: none;
 	color: #fff;
-    font-size: 24px;
+    font-size: 1.5em;
 }
 
-#logo {
-	float: left;
-	padding: 20px;
-}
 
 .content {
 	padding: 10% 0 10% 0;
@@ -73,4 +95,18 @@ footer {
     font-style: italic;
     font-size: 12px;
     padding: 46%;
+}
+
+/* <-- MEDIA SCREENS --> */
+
+/* TABLET */
+
+@media screen and (max-width: 1200px) {
+    #navMenu {
+        visibility: hidden;
+    }
+    
+    #menuNavButton {
+        visibility: visible;
+    }
 }
